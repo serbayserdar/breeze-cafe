@@ -20,7 +20,7 @@ body{
 #cafe-name{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
-    color: brown;
+    color:brown;
     text-shadow: 3px 3px 3px aqua;
     font-size: 40px;
     letter-spacing: 5px;
@@ -118,5 +118,29 @@ body{
     border-radius: 8px;
     width: 50%;
     letter-spacing: 15px;
+}
+
+
+
+
+
+#hot-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hot-coffees{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 100px 0;
+}
+
+.hot-img{
+    border-radius: 16px;
 }
 
