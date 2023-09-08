@@ -48,6 +48,8 @@ body{
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
 }
 
 #btn-2{
@@ -60,4 +62,61 @@ body{
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    text-decoration: none;
+    text-align: center;
 }
+
+#iced-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.iced-coffees{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 100px 0;
+}
+
+.iced-img{
+    border-radius: 16px;
+}
+
+.info-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    height: 70px;
+}
+
+#name{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #6F4E37 ;
+}
+
+#price{
+    font-family:fantasy;
+    font-size: 25px;
+    color: #6F4E37 ;
+}
+
+#buy{
+    border: none;
+    margin-top: 15px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #6F4E37 ;
+    color: white;
+    border-radius: 8px;
+    width: 50%;
+    letter-spacing: 15px;
+}
+
